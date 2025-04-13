@@ -155,7 +155,7 @@ int main(int argc, char *argv[]) {
         run_server();
     } else {
         setup_interface(argv[2], "24");
-        run_client();
+        run_client(argv[3]);
     }
 
     cleanup();
